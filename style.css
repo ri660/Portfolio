@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    height: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 0;
+}
+
+p {
+    color: gray;
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    background-color: deeppink;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.continear {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+#header-bg {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    overflow: hidden;
+    padding-bottom: 8%;
+}
+
+.left-content {
+    width: 52%;
+    float: left;
+    padding-left: 5%;
+    margin-top: 8%;
+}
+
+.right-content img {
+    width: 40%;
+    float: right;
+}
+
+/* Biography */
+
+.bio-pic img {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+
+.bio-bg {
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+    padding-bottom: 8%;
+}
+
+.bio-content {
+    width: 40%;
+    text-align: justify;
+    float: right;
+    margin-top: 10%;
+}
+
+.bio-container {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+/* Work  */
+
+.work-bg {
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 8%;
+}
+
+.work-pic {
+    width: 80%;
+    margin: auto;
+}
+
+.work-pic img {
+    width: 30%;
+    display: inline;
+    margin: 0px 16px;
+}
+
+.work-content h2 {
+    text-align: center;
+    padding: 5%;
+}
+
+/* Client */
+
+.client-content {
+    width: 50%;
+    margin: auto;
+}
+
+.client-content h2 {
+    text-align: center;
+    padding: 5%;
+}
+
+.client-content h3 {
+    text-align: center;
+    line-height: 1;
+}
+
+.client-content P {
+    text-align: center;
+}
+
+.client-content span {
+    text-align: center;
+    display: block;
+    font-size: 22px;
+    padding-bottom: 8%;
+}
+
+.clint-box {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    background-color: deeppink;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px 65px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.clint-box p {
+    color: white;
+}
+
+.footer-bg {
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    padding-bottom: 30%
+}
+
+footer p {
+    text-align: center;
+}
